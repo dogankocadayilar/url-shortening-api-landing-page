@@ -8,7 +8,7 @@ function Header() {
       <Navbar />
       <div className={style.content}>
         <img
-          src="./src/assets/images/illustration-working.svg"
+          src="https://raw.githubusercontent.com/dogankocadayilar/url-shortening-api-landing-page/main/src/assets/images/illustration-working.svg"
           alt=""
           className={style.headerImg}
         />

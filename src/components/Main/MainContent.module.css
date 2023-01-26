@@ -29,7 +29,7 @@
 }
 
 .bottom {
-  background: url("../src/assets/images/bg-boost-mobile.svg");
+  background: url("https://raw.githubusercontent.com/dogankocadayilar/url-shortening-api-landing-page/main/src/assets/images/bg-boost-mobile.svg");
   background-color: var(--dark-violet);
   background-size: cover;
   display: flex;
@@ -58,7 +58,7 @@
   }
 
   .bottom {
-    background: url("../src/assets/images/bg-boost-desktop.svg");
+    background: url("https://raw.githubusercontent.com/dogankocadayilar/url-shortening-api-landing-page/main/src/assets/images/bg-boost-desktop.svg");
     background-color: var(--dark-violet);
     background-size: cover;
   }
