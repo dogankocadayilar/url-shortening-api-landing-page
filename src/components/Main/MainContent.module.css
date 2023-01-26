@@ -1,0 +1,75 @@
+.main {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.title {
+  margin-top: 3em;
+  color: var(--dark-violet);
+}
+
+.desc {
+  font-size: 0.95rem;
+  color: var(--gray-violet);
+  margin-bottom: 7em;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 0;
+  gap: 5em;
+}
+
+.bottom {
+  background: url("../src/assets/images/bg-boost-mobile.svg");
+  background-color: var(--dark-violet);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5em 0;
+}
+
+.bottomTitle {
+  margin: 0 0 0.5em 0;
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .infoWrapper {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    margin: 8em 0 2em 0;
+  }
+
+  .infoWrapper:first-child {
+    transform: translateY(-500%);
+  }
+
+  .bottom {
+    background: url("../src/assets/images/bg-boost-desktop.svg");
+    background-color: var(--dark-violet);
+    background-size: cover;
+  }
+
+  .desc {
+    width: 500px;
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+
+  .bottomTitle {
+    font-size: 2.5rem;
+  }
+}

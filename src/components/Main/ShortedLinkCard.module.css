@@ -1,0 +1,67 @@
+.card {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.card > a {
+  padding: 1em;
+  display: block;
+  font-size: 1rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+.fullLink {
+  color: var(--dark-violet);
+  border-bottom: 1px solid var(--gray);
+}
+
+.shortLink {
+  color: var(--cyan);
+}
+
+.button {
+  padding: 0.5em 1.5em;
+  background-color: var(--cyan);
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  border: none;
+  width: 90%;
+  margin: 0 0 1em 0;
+  border-radius: 5px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: hsl(180, 66%, 70%);
+}
+
+.button:disabled {
+  background-color: var(--dark-violet);
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+  }
+
+  .button {
+    width: 120px;
+    margin: 0;
+  }
+
+  .shortLink {
+    margin-left: auto;
+  }
+
+  .fullLink {
+    border: none;
+  }
+}

@@ -1,0 +1,7 @@
+.error {
+  outline: 2px solid var(--red) !important;
+}
+
+.error::placeholder {
+  color: var(--red) !important;
+}

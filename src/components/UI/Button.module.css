@@ -1,0 +1,17 @@
+.button {
+  display: block;
+  padding: 0.75em 1.5em;
+  background-color: var(--cyan);
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: hsl(180, 66%, 70%);
+}
