@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-[Solution](https://your-solution-url.com)
-[Live](https://your-live-site-url.com)
+[Solution](https://github.com/dogankocadayilar/url-shortening-api-landing-page)
+[Live](https://dogankocadayilar.github.io/url-shortening-api-landing-page/)
 
 ### Built with
 
